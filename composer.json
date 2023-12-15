@@ -1,0 +1,19 @@
+{
+    "name": "techkaffir/kaffirfold",
+    "description": "\u0016A lightweight but robust PHP OOP MVC Framework optimised for scalable web applications",
+    "type": "library",
+    "license": "GNU (GPL)",
+    "autoload": {
+        "psr-4": {
+            "Techkaffir\\Kaffirfold\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TheTechKaffir",
+            "email": "jongim@jongibrandz.co.za"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}

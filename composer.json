@@ -2,18 +2,47 @@
     "name": "techkaffir/kaffirfold",
     "description": "\u0016A lightweight but robust PHP OOP MVC Framework optimised for scalable web applications",
     "type": "library",
+    "keywords": ["framework","php","kaffirfold","tech kaffir"],
     "license": "GNU (GPL)",
+    "readme": "",
+    "time": "",
+    "support": {
+        "issues": "https://github.com/TechKaffir/kaffirfold-framework/issues",
+        "source": "https://github.com/TechKaffir/kaffirfold-framework",
+        "wiki": "https://github.com/TechKaffir/kaffirfold-framework/wiki"
+    },
     "autoload": {
         "psr-4": {
-            "Techkaffir\\Kaffirfold\\": "src/"
+            "Kaffirfold\\": "src/Kaffirfold"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kaffirfold\\Tests": "tests/"
         }
     },
     "authors": [
         {
             "name": "TheTechKaffir",
-            "email": "jongim@jongibrandz.co.za"
+            "email": "jongim@jongimbodla.africa",
+            "role": "Project Leader"
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php": "7.4|^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "ext-mysqli": "*",
+        "ext-pdo_mysql": "*",
+        "ext-pdo_sqlite": "*",
+        "ext-fileinfo": "*",
+        "ext-simplexml": "*",
+        "ext-intl": "*",
+        "ext-exif": "*"
+    }
 }
